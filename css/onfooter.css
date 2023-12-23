@@ -1,0 +1,51 @@
+.onfooter {
+    display: block;
+    height: 340px;
+    background-color: rgba(255, 255, 255, 0); 
+    padding-top: 90px;   
+}
+.onfooter_blocks{
+    display: flex;  
+    align-items: center;
+
+}
+.onfooter_text1 {   
+    text-align: center;
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-size:14px;
+    line-height: 25px;
+}
+
+.onfooter_text2 {
+    
+    text-align: center;
+    color:rgb(141, 141, 141);
+    font-family: "Montserrat", sans-serif;
+    font-size:14px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+    
+.fast_servers{
+    width: 300px;
+}
+
+.cloud_servers {
+    width: 300px;
+}
+
+.domain_transfer {
+    width: 300px;
+}
+
+.live_support {
+    width: 300px;
+}
+.f_s_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    margin-bottom: 15px;
+}

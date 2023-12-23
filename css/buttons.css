@@ -1,0 +1,54 @@
+.buttons{
+    margin: 0px;
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+}
+.button_container {
+    text-align:center;
+    width: 50%;
+}
+
+.btn_login{
+    width: 49.4vw;
+    padding: 30px 0px;
+    border:none;
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgb(33, 66, 74);
+    color: white;
+    display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	position:relative;  
+}
+
+.btn_register{
+    width: 49.48vw;
+    padding: 30px 0px;
+    border:none;
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgb(47, 172, 108);
+    color: white;
+    display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	position:relative;  
+}
+
+.btn_register::before {
+	content:'';
+	display:block;
+	clear:both;
+	width:0;
+	height:0;
+	border-left:40px solid transparent;
+	border-bottom:87px solid rgb(47, 172, 108);
+	position:absolute;
+	top:0;
+	left:-40px;
+}

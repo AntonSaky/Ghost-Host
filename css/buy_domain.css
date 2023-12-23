@@ -1,0 +1,135 @@
+.buy_domain{
+    margin-top: 75px;
+}
+.buy_domain_title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: medium;
+    text-align: center;
+    color: rgb(56,55,55);
+    margin-bottom: 30px;
+}
+.buy_domain_subtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: light;
+    text-align: center;
+    color: rgb(162,162,162); 
+    margin-bottom: 60px;  
+}
+input{
+    padding: 10px;
+}
+.input{
+    margin:0 auto;
+    display: flex;
+    margin-bottom: 30px;
+    width: 900px;
+    border: 2px solid rgb(203,203,203);
+}
+.table{
+    border: 2px solid rgb(203,203,203);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(203,203,203);
+    width: 900px;
+    margin:0 auto;
+}
+.first_row, .second_row{
+    display: flex;
+}
+.elem{
+    height: 110px;
+    width: 260px;
+    padding: 50px;
+    position: relative;
+}
+.first_row .elem::after{
+    content: "";
+    border-right: 1px solid rgb(203,203,203);
+    height: 70%;
+    position: absolute;
+    top: 30px;
+    left: 220px;
+}
+.elem2{
+    position: relative;
+}
+.second_row .elem::after{
+    content: "";
+    border-right: 1px solid rgb(203,203,203);
+    height: 70%;
+    position: absolute;
+    top: 12px;
+    left: 220px;
+}
+.elem2::before{
+    content: "";
+    border-top: 1px solid rgb(203,203,203);
+    width: 88%;
+    display: block;
+    position: absolute;
+    top:3px;
+    left: 10px;
+}
+ .second_row:first-child::before{
+    content: "";
+    border-top: 1px solid rgb(203,203,203);
+    width: 80%;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.first_row .elem:last-child::after{
+    border:none;
+}
+.second_row .elem:last-child::after{
+    border:none;
+}
+.www{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    color: rgb(203,203,203);
+    padding: 10px; 
+}
+.www::placeholder{
+    color: rgb(203,203,203); 
+}
+.wanting{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(134,134,134);
+    border: none; 
+    height: 30px;
+    margin-top: 6px; ;
+    border-right: 2px solid rgb(203,203,203);
+    border-left: 2px solid rgb(203,203,203);
+    width: 730px;
+}
+.wanting:focus{
+    outline: none;
+}
+.list:focus{
+    outline: none;
+}
+/* .list option:hover{
+    color: white;
+    background-color: rgb(56,55,55);
+} */
+.list{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center; 
+    color: rgb(203,203,203);
+    padding: 10px;
+    border: none;
+}

@@ -1,0 +1,131 @@
+.footer{
+    background-color: #252525;
+}
+
+.logo_f {
+    filter: brightness(60%);
+    transition: filter .3s ease;
+}
+.logo_f:hover{
+    filter: brightness(100%);
+}
+
+.navigation_bar_f{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 1;  
+}
+
+.navigation_list_f {
+    display: flex;      
+}
+
+.hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(74, 74, 74);
+}
+
+.navigation_list-item_f a{
+    margin-left: 60px;
+    color:rgb(255, 255, 255, 0.230)
+} 
+
+.navigation_list-item_f a:hover{
+    color:white;
+    transition: all .4s ease;
+}
+
+.columns {
+    display:flex; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+ } 
+
+.first_c { 
+    margin-top: 25px;
+    color:rgba(255, 255, 255, 0.230);
+    font-family: "Montserrat", sans-serif;
+    font-size:14px;
+    line-height: 160%;
+    max-width: 350px;
+}
+
+.second_c{
+    display: flex;
+    margin-left: 60px;
+}
+.second_c li{
+    width: 150px;
+}
+.third_c {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size:14px;
+    
+}
+.contacts{
+    color:rgba(255, 255, 255, 0.230);
+}
+.contacts_item_1 {
+    font-size: 15px;
+}
+.mail, .phone{
+    display: flex;
+    align-items: center;
+}
+.mail p, .phone p{
+    margin-left: 10px;
+}
+.contacts_item_2 {
+    font-size: 15px;
+}
+.contacts div, .contacts_item{
+    margin-bottom: 10px;
+}
+.columns li{
+    transition: all .15s ease;
+}
+.columns li:hover{
+    transform: translateX(10px);
+}
+
+.fir_help_item a{
+    color:rgba(255, 255, 255, 0.230);
+    line-height: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-size:14px;
+    line-height: 33px;
+
+}
+.fir_help_item a::before{
+    content: "›";
+    padding-right: 8px;
+    transition: all .4s ease; 
+}
+
+.fir_help_item a:hover{
+    color:white;
+}
+
+.sec_help {
+    margin-left: 60px;
+}
+ .v_line {
+    border-left: 1px solid rgba(255, 255, 255, 0.170);
+    margin-left: 45px;  
+} 
+.v_line_2 {
+  border-left: 1px solid rgba(255, 255, 255, 0.170);
+  margin-left: 40px;
+
+} 
+
+.second_line {
+    margin-top: 15px;
+}
+
